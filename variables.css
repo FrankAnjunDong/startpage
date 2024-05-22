@@ -1,36 +1,36 @@
 :root {
   /** colors */
-  --color-name: material;
-  --color-bg-shade: #1A1A1A;
-  --color-bg-base: #212121;
-  --color-bg-surface: #282828;
-  --color-bg-highlight: #2E2E2E;
-  --color-fg-shade: #949494;
-  --color-fg-base: #B9B9B9;
-  --color-fg-surface: #DEDEDE;
+  --color-name: nord;
+  --color-bg-shade: #252A33;
+  --color-bg-base: #2E3440;
+  --color-bg-surface: #373E4D;
+  --color-bg-highlight: #40495A;
+  --color-fg-shade: #768CB2;
+  --color-fg-base: #A6B4CD;
+  --color-fg-surface: #D6DCE8;
   --color-fg-highlight: #FFFFFF;
-  --color-primary-bg: #265828;
-  --color-primary-base: #4CAF50;
-  --color-primary-fg: #A2D7A4;
-  --color-secondary-bg: #56235F;
-  --color-secondary-base: #AB47BC;
-  --color-secondary-fg: #D6A6DF;
-  --color-palette-red: #E06C75;
-  --color-palette-green: #98C379;
-  --color-palette-yellow: #E5C07B;
-  --color-palette-blue: #61AFEF;
-  --color-palette-purple: #C678DD;
-  --color-palette-cyan: #56B6C2;
-  --color-palette-orange: #FFBB7C;
+  --color-primary-bg: #2C4948;
+  --color-primary-base: #579190;
+  --color-primary-fg: #9AC2C2;
+  --color-secondary-bg: #25394C;
+  --color-secondary-base: #4A7197;
+  --color-secondary-fg: #8BA9C6;
+  --color-palette-red: #BF616A;
+  --color-palette-green: #A3BE8C;
+  --color-palette-yellow: #EBCB8B;
+  --color-palette-blue: #5E81AC;
+  --color-palette-purple: #B48EAD;
+  --color-palette-cyan: #88C0D0;
+  --color-palette-orange: #D08770;
   
   /** general */
   --font-family: Quicksand;
   --font-size: 1;
-  --display-image: block;
+  --display-image: none;
 
   /** surface */
   --surface-maxWidth: 1000px;
-  --surface-shadow: 12px 12px 0px rgb(38, 88, 40), 24px 24px 0px rgb(50, 74.75, 53.75), 36px 36px 0px rgb(62, 61.5, 67.5), 48px 48px 0px rgb(74, 48.25, 81.25), 60px 60px 0px rgb(86, 35, 95);
+  --surface-shadow: 12px 12px 0px rgb(44, 73, 72), 24px 24px 0px rgb(42.25, 69, 73), 36px 36px 0px rgb(40.5, 65, 74), 48px 48px 0px rgb(38.75, 61, 75), 60px 60px 0px rgb(37, 57, 76);
   --surface-borderRadius: 0px;
 
   /** spacing */
